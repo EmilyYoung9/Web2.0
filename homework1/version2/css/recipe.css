@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    background-image: url(../pictures/silverware.jpg);/*附加题1：背景图 xy方向重复 随页面滚动而固定*/
+    background-repeat: repeat;/*默认表示在x和y方向重复*/
+    background-attachment: fixed;/*attachment表示背景图是否随着页面滚动而滚动*/
+}
+
+.title{/*css文件中，后出现的class优先级比先出现的class高*/
+    color: rgb(164,164,0);
+    background-color: rgb(240,240,240);
+    font-family: "Century Gothic",Futura,Verdana,"sans-serif";/*为了避免浏览器解析时候解析成多个词汇，字体名称有连字符“-”或空格" "，或汉字时加引号*/
+    text-decoration: underline;
+    letter-spacing: 0.2em;/*附加题4：给标题设置0.2em的字间距*/
+}
+
+h1{
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+
+}
+
+.h2_title{
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+.article{
+    color: rgb(64,64,64);
+    font-size: 11pt;
+    font-family: "Georgia","Garamond",serif;
+}
+
+a{
+    color: rgb(164,164,0) !important;/*标签选择器优先级低于class选择器（a优先级比.article低），在属性后插有!important拥有最高优先级*/
+}
+
+blockquote{
+    font-style: oblique;
+    background-color: rgb(255,255,200);
+}
+
+ul{
+    list-style-image: url("../pictures/pie_icon.gif");/*附加题3：将列表换为pie_icon*/
+}
+
+.W3C_pictures{
+    border-width: 0;  /*附加题5：无边界图像链接*/
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(http://172.18.160.21/wiki/download/attachments/32833570/background.png?version=1&modificationDate=1268939512000&api=v2);
+	font-size: 8pt;
+	font-family: "Verdana","Tahoma","sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+#banner{
+	background-image: url(http://172.18.160.21/wiki/download/attachments/32833570/bannerbackground.png?version=1&modificationDate=1268939512000&api=v2);
+	text-align: center;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 50px;
+}
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: "Tahoma","Verdana","sans-serif";
+}
+
+#main{
+	width: 800px;
+	position: relative;
+	border: 4px solid gray;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+#left{
+	width: 550px;
+	float: left;
+	height: auto;
+}
+
+#title{
+	background-image: url(http://172.18.160.21/wiki/download/attachments/32833570/rottenbackground.png?version=1&modificationDate=1268939585000&api=v2);
+	background-repeat: repeat-x;
+	height: 83px;
+}
+#text{
+	position: absolute;
+	top: 0;
+	left: 13%;
+}
+.number{
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+}
+.total{
+	color: white;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+#leftCol{
+	width: 47%;
+	margin-left: 2%;
+	float: left;
+}
+#rightCol{
+	width: 47%;
+	margin-right: 2%;
+	float: right;
+}
+
+.photo{
+	padding-right: 5px;
+}
+#part1,  #part5{
+	border: 2px solid gray;
+	background: #E1D697;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 0 8px 0 8px;
+	margin-top: 1em;
+}
+#part2,#part3, #part4, #part6, #part7, #part8{
+	border: 2px solid gray;
+	background: #E1D697;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 0 8px 0 8px;
+	margin-top: 3em;
+}
+
+/*#people1， #people2, #people3, #people4, #people5, #people6, #people7, #people8{
+	padding-top: 0;
+	float: none;
+}*/
+
+#right{
+	width: 250px;
+	float: right;
+	background: #A2B964;
+	font-size: 8pt;
+	font-family: "Arial","sans-serif";
+	height: auto;
+}
+
+dl{
+	padding: 10px;
+	margin-top: 0;
+}
+dt{
+	font-weight: bold;
+}
+dd{
+	margin-bottom: 1em;
+}
+
+#button{
+	background: #A2B964;
+	text-align: center;
+	padding: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 792px;
+}
+#picture{
+	position: fixed;
+    bottom: 0;
+    right: 0;  
+}

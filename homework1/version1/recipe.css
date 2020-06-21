@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+/*中山大学 数据科学与计算机学院 18级软件工程3班 杨玲 18342115  2019.9*/
+/* 1.Background   3.Pie bullet  4.Wide headings  5.Borderless image links */
+
+#title1{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Century Gothic","Futura","Verdana","sans-serif";
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+	text-decoration:underline;
+	letter-spacing: 0.2em;
+}
+ 
+#title2, #title3, #title4, #title5, #title6{ 
+	color: #A4A400; 
+    background-color: #F0F0F0;
+    font-family: "Century Gothic","Futura","Verdana",serif;
+    font-size: 18pt;
+	font-weight: normal;
+    text-decoration:underline;
+	text-align: left;
+	letter-spacing: 0.2em;
+} 
+
+#part1, #part2, #part3, #part4{
+	color: #404040; 
+    font-family: "Georgia","Garamond",serif;
+    font-size: 11pt;
+}
+
+blockquote{
+	background-color: #ffffc8;
+}
+
+body{
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+	background-attachment: fixed;
+}	
+
+a {
+	font-size: 11pt;
+	color: #A4A400;
+}
+
+ul{
+	list-style-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+
+#picture{
+	border: none;
+}

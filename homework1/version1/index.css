@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/*中山大学 数据科学与计算机学院 18级软件工程3班 杨玲 18342115  2019.9*/
+
+#title1{
+	color: #5D0088;
+	font-family: "Century Gothic","Futura","Verdana","sans-serif";
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+#picture{
+	text-align: center;
+}
+body{
+	background-image: url(http://ww1.sinaimg.cn/large/007jCw9lly1g6q7dotstuj306o08wt8n.jpg);
+}
+
+a {
+	font-size: 15pt;
+	font-weight: bold;
+	color: #9148AA;
+	font-family: "Georgia","Garamond",serif;
+}
+p {
+	font-size: 15pt;
+	font-weight: bold;
+	color: #000000;
+	font-family: "Georgia","Garamond",serif;
+	text-align: center;
+}
