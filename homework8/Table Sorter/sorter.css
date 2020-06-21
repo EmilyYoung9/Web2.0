@@ -1,0 +1,56 @@
+/*中山大学 数据科学与计算机学院 18级软件工程3班 杨玲 18342115  2019.11*/
+
+html，body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin: 15px 10px;
+}
+
+table {
+	margin: 15px 10px;
+	border: 1px rgb(173, 171, 171) solid;
+    padding: 3px 6px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px rgb(173, 171, 171) solid;
+    padding: 3px 6px;
+}
+
+th {
+	border: 1px rgb(173, 171, 171) solid;
+    padding: 3px 6px;
+    background-color: #0e1b94;
+    color: white;
+    cursor: pointer;
+    -webkit-user-select: none;
+    text-align: left;
+    padding: 3px 20px 3px 6px;
+}
+
+th.sort-ascend, th.sort-descend {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #a4adfc;
+}
+
+th.sort-ascend {
+    background-image: url("ascend.png");
+}
+
+th.sort-descend {
+    background-image: url("descend.png");
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(206, 205, 205);
+}
+
+tbody tr:nth-child(odd) {
+    background: white;
+}

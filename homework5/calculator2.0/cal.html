@@ -1,0 +1,47 @@
+<!doctype html>
+<!--中山大学 数据科学与计算机学院 18级软件工程3班 杨玲 18342115  2019.10-->
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="cal.css" />
+    <script src="cal.js"></script>
+</head>
+
+<body>
+	<h1>Calculator</h1>
+	
+    <div id="center">
+        <br><br>
+        <form>
+            <input type="text" id="output">
+            <br><br>
+            <input type="button" class="Button number" value="7" onclick="get(this.value);">
+            <input type="button" class="Button number" value="8" onclick="get(this.value);">
+            <input type="button" class="Button number" value="9" onclick="get(this.value);">
+            <input type="button" class="Button operator" value="/" onclick="get(this.value);">
+            <br>
+            <input type="button" class="Button number" value="4" onclick="get(this.value);">
+            <input type="button" class="Button number" value="5" onclick="get(this.value);">
+            <input type="button" class="Button number" value="6" onclick="get(this.value);">
+            <input type="button" class="Button operator" value="*" onclick="get(this.value);">
+            <br>
+            <input type="button" class="Button number" value="1" onclick="get(this.value);">
+            <input type="button" class="Button number" value="2" onclick="get(this.value);">   
+            <input type="button" class="Button number" value="3" onclick="get(this.value);">
+            <input type="button" class="Button operator" value="-" onclick="get(this.value);">
+            <br>
+            <input type="button" class="Button number" value="0" onclick="get(this.value);">
+            <input type="button" class="Button others" value="." onclick="get(this.value);">
+            <input type="button" class="Button others" value="←" onclick="clear_one();">
+            <input type="button" class="Button operator" value="+" onclick="get(this.value);">
+            <br>
+            <input type="button" class="Button others" value="(" onclick="get(this.value);">
+            <input type="button" class="Button others" value=")" onclick="get(this.value);">
+            <input type="button" class="Button others" value="CE" onclick="clearall();">
+            <input type="button" class="Button operator" value="=" onclick="calculate();">
+        </form>
+    </div>
+</body>
+</html>

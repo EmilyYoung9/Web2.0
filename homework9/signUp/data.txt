@@ -1,0 +1,4 @@
+{"username":"yangling","studentid":"18342115","phone":"17827063503","email":"1060440352@qq.com","submit":"提交"}
+{"username":"llllll","studentid":"12345678","phone":"12345678909","email":"1@qq.com","submit":"提交"}
+{"username":"yanglingling","studentid":"12398745","phone":"19847867392","email":"2@qq.com","submit":"提交"}
+{"username":"wwwwww","studentid":"12333333","phone":"44444444444","email":"0352@qq.com","submit":"提交"}

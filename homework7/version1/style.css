@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+学号：18342115
+姓名：杨玲
+日期：2019.11.7
+*/
+
+body {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    background:  url(http://tva1.sinaimg.cn/large/007X8olVly1g8qub0tkvxj30jg0jgjs6.jpg);
+	overflow: hidden;
+}
+
+#title {
+    color: rgba(249,93,0,1.00);
+	font-weight: bolder;
+    font-family: "Dancing Script", sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#puzzle_block {
+    width: 500px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+#gameStart {
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+	border-radius: 20px;
+	border-bottom-color: azure;
+    transition: 0.5s;
+}
+
+#gameStart:hover{
+    position: relative;
+    Right: 1px;
+    Bottom: 1px;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+	border-radius: 20px;
+	border-bottom-color: azure;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.imageC {
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin:0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.imageC:hover {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    height: 125px;
+    Right: 3px;
+    Bottom: 3px;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.container{
+    float:left;
+    margin-bottom: 0;
+    padding: 0;
+    width: 125px;
+    height: 125px;
+}
+
+#P15{
+    background: rgba(255,255,255, 1);
+}
+
+#choose{
+    color: rgba(0,0,0,1.00);
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#upload{
+    width: 150px;
+    display: inline;
+}
+
+#confirm{
+    display: inline;
+	font-size: 20px;
+	border-radius: 40px;
+    border: double;
+	border-color: azure;
+}
+
+#level_choose{
+    color: rgba(232,0,255,1.00);
+	font-weight: bolder;
+	font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
